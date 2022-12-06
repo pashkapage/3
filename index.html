@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header class="header">
+        <img class="header__cover" src="/img/HERO_IMAGE.png" alt="" >
+        <a class="header__logo-link" href="https://www.google.com/" >
+            <svg class="header__logo-img" viewBox="0 0 75 75">
+                <rect width="75" height="75" fill="black"/>
+                <line x1="20" y1="65" x2="40" y2="10" stroke="white" stroke-width="10" />
+                <circle cx="50" cy="55" r="5" fill="white"/>
+            </svg>
+        </a>
+        <h1 class="header__title">Amazing Dude.<br>Amazing Life.</h1>
+        <p class="header__text">Welcome to the personal site of <span> John Doe</span>.<br>
+            A professional skier and a musician.</p>
+
+        <div class="header__nav">
+            <input id="menu__toggle" type="checkbox" />
+            <label class="menu__btn" for="menu__toggle">
+                <span></span>
+            </label>
+            <ul class="menu__box">
+                <li><a class="menu__item" href="">About me</a></li>
+                <li><a class="menu__item" href="">Gallery</a></li>
+                <li><a class="menu__item" href="">Music</a></li>
+            </ul>
+            <p>MENU</p>
+        </div>
+        
+        
+    </header>
+    <section class="about">
+        <img class="about__img" src="/img/PHOTO.png" alt="">
+        <div class="text">
+            <p class="text__caption">Sed faucibus quis</p>
+            <p class="text__discription">
+                Fusce bibendum luctus massa, 
+                ut tincidunt lectus tincidunt in. 
+                Nulla tristique ipsum vitae lacus 
+                ullamcorper, at dictum nunc 
+                scelerisque.
+            </p>
+        </div>
+    </section>
+    <section class="gallery">
+        <img class="gallery__item" src="img/1.png" alt="">
+        <img class="gallery__item" src="img/2.png" alt="">
+        <img class="gallery__item" src="img/3.png" alt="">
+        <img class="gallery__item" src="img/4.png" alt="">
+        <div class="gallery__item block">
+            <p class="block__caption">INSTAGRAM</p>
+            <p class="block__discription">
+                Etiam lacus dolor, tincidunt vitae 
+                nisi in, vulputate placerat odio.
+                Pellentesque iaculis.
+            </p>
+            <a class="block__link" href="" >View on instagram</a>
+        </div>
+        <img class="gallery__item" src="img/5.png" alt="">
+        <div class="gallery__item--blank" src="" alt=""></div>
+    </section>
+    <section class="music">
+        <div class="video-cover">
+            <div class="video-cover__item--blank"></div>
+            <div class="video-cover__item--upper">
+                <p class="video-cover__item__caption">Self-Effacing Rage<br><span>FT. Fascinating Collision</span></p>
+                <p class="video-cover__item__title">Director: James G. Rohrer <br>
+                    Production Company: Sycamore <br>
+                    Producer: Laura S. Carlton <br>
+                    Executive Producer: Jack M. Heckart</p>
+                <button class="video-cover__item__btn">CLICK TO PLAY
+                    <!-- <svg class="video-cover__item__play" width="17px" height="16px" viewBox="0 0 512 512" fill="#2ebd59" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M133,440a35.37,35.37,0,0,1-17.5-4.67c-12-6.8-19.46-20-19.46-34.33V111c0-14.37,7.46-27.53,19.46-34.33a35.13,35.13,0,0,1,35.77.45L399.12,225.48a36,36,0,0,1,0,61L151.23,434.88A35.5,35.5,0,0,1,133,440Z"/>
+                    </svg> -->
+                    <svg class="video-cover__item__play" width="17px" height="16px" viewBox="0 0 48 48"  version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <g id="🔍-Product-Icons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                            <g id="ic_fluent_play_48_filled" fill="#2ebd59" fill-rule="nonzero">
+                                <path d="M13.7501344,8.41212026 L38.1671892,21.1169293 C39.7594652,21.9454306 40.3786269,23.9078584 39.5501255,25.5001344 C39.2420737,26.0921715 38.7592263,26.5750189 38.1671892,26.8830707 L13.7501344,39.5878797 C12.1578584,40.4163811 10.1954306,39.7972194 9.36692926,38.2049434 C9.12586301,37.7416442 9,37.2270724 9,36.704809 L9,11.295191 C9,9.50026556 10.4550746,8.045191 12.25,8.045191 C12.6976544,8.045191 13.1396577,8.13766178 13.5485655,8.31589049 L13.7501344,8.41212026 Z" id="🎨-Color"></path>
+                            </g>
+                        </g>
+                    </svg>
+
+                </button>
+                
+            </div>
+            <div class="video-cover__item--cover">
+                <img class="video-cover__item__img" src="/img/music.png" alt="">
+            </div>
+        </div>
+        <div class="social">
+            <div class="box green">
+                <p class="caption">SPOTIFY</p>
+                <p class="discription">Follow me, stream and add my songs to your Spotify playlist.</p>
+                <a class="link" href="" >FOLLOW ON SPOTIFY</a>
+            </div>
+            <div class="box grey">
+                <p class="caption">ITUNES</p>
+                <p class="discription">Buy and download my songs from iTunes.</p>
+                <a class="link" href="" >buy from itunes</a>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="about-me">
+            <p class="about-me__caption">AMAZING DUDE.<br>AMAZING LIFE.</p>
+            <p class="about-me__discription">Mauris ornare lobortis arcu, at sodales dolor finibus nec. 
+                In convallis risus ligula, bibendum sagittis ante cursus vitae. 
+                Donec ornare, dui nec sagittis imperdiet, nunc eros dignissim augue, ut aliquam nibh felis sit amet leo.
+                Vivamus eu tincidunt tellus. Vestibulum quis condimentum lectus, nec aliquet lectus. 
+                Duis sollicitudin facilisis dui ac aliquet. Phasellus tempor sollicitudin augue, id hendrerit enim gravida non. 
+                Integer consequat vel arcu quis dictum. Vestibulum viverra commodo nunc eu pellentesque. 
+                Phasellus in scelerisque elit, eu ultricies mauris.
+            </p>
+            <p class="about-me__rights">Ⓒ2015. all rights reserved.</p>
+        </div>
+        <div class="wrapper-center">
+            <div class="contact-me">
+                <p class="about-me__caption">CONTACT ME</p>
+                <p class="contact-me__address">
+                    1242 Crestview Terrace<br>
+                    Artesia Wells, TX 78001
+                    </p>
+                <p class="contact-me__phone">Phone: 830-676-7974</p>
+                <p class="contact-me__email">Email: halo@sitename.com</p>
+            </div>
+            <div class="social">
+                <div class="about-me__caption">FOLLOW ME</div>
+                <div class="social__facebook">
+                    <svg class="social__facebook-img" fill="#919191" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 24 24" width="24px" height="24px">
+                        <path d="M17.525,9H14V7c0-1.032,0.084-1.682,1.563-1.682h1.868v-3.18C16.522,2.044,15.608,1.998,14.693,2C11.98,2,10,3.657,10,6.699V9H7v4l3-0.001V22h4v-9.003l3.066-0.001L17.525,9z"/>
+                    </svg>
+                    <div class="social__facebook-name">FACEBOOK</div>
+                </div>
+                <div class="social__twitter">
+                    <svg class="social__twitter-img" fill="#919191" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 24 24" width="24px" height="24px"> 
+                        <path d="M22,3.999c-0.78,0.463-2.345,1.094-3.265,1.276c-0.027,0.007-0.049,0.016-0.075,0.023c-0.813-0.802-1.927-1.299-3.16-1.299 c-2.485,0-4.5,2.015-4.5,4.5c0,0.131-0.011,0.372,0,0.5c-3.353,0-5.905-1.756-7.735-4c-0.199,0.5-0.286,1.29-0.286,2.032 c0,1.401,1.095,2.777,2.8,3.63c-0.314,0.081-0.66,0.139-1.02,0.139c-0.581,0-1.196-0.153-1.759-0.617c0,0.017,0,0.033,0,0.051 c0,1.958,2.078,3.291,3.926,3.662c-0.375,0.221-1.131,0.243-1.5,0.243c-0.26,0-1.18-0.119-1.426-0.165 c0.514,1.605,2.368,2.507,4.135,2.539c-1.382,1.084-2.341,1.486-5.171,1.486H2C3.788,19.145,6.065,20,8.347,20 C15.777,20,20,14.337,20,8.999c0-0.086-0.002-0.266-0.005-0.447C19.995,8.534,20,8.517,20,8.499c0-0.027-0.008-0.053-0.008-0.08 c-0.003-0.136-0.006-0.263-0.009-0.329c0.79-0.57,1.475-1.281,2.017-2.091c-0.725,0.322-1.503,0.538-2.32,0.636 C20.514,6.135,21.699,4.943,22,3.999z"/>
+                    </svg>
+                    <div class="social__twitter-name">twitter</div>
+                </div>
+                <div class="social__instagram">
+                    <svg class="social__instagram-img" fill="#919191" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 48 48" width="24px" height="24px">
+                        <path d="M 16.5 5 C 10.159 5 5 10.159 5 16.5 L 5 31.5 C 5 37.841 10.159 43 16.5 43 L 31.5 43 C 37.841 43 43 37.841 43 31.5 L 43 16.5 C 43 10.159 37.841 5 31.5 5 L 16.5 5 z M 34 12 C 35.105 12 36 12.895 36 14 C 36 15.104 35.105 16 34 16 C 32.895 16 32 15.104 32 14 C 32 12.895 32.895 12 34 12 z M 24 14 C 29.514 14 34 18.486 34 24 C 34 29.514 29.514 34 24 34 C 18.486 34 14 29.514 14 24 C 14 18.486 18.486 14 24 14 z M 24 17 A 7 7 0 1 0 24 31 A 7 7 0 1 0 24 17 z"/>
+                    </svg>
+                    <div class="social__instagram-name">instagram</div>
+                </div>
+                <div class="social__spotify">
+                    <svg class="social__spotify-img" fill="#919191" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 30 30" width="24px" height="24px">    <path d="M15,3C8.4,3,3,8.4,3,15s5.4,12,12,12s12-5.4,12-12S21.6,3,15,3z M19.731,21c-0.22,0-0.33-0.11-0.55-0.22 c-1.65-0.991-3.74-1.54-5.94-1.54c-1.21,0-2.53,0.22-3.63,0.44c-0.22,0-0.44,0.11-0.55,0.11c-0.44,0-0.77-0.33-0.77-0.77 s0.22-0.77,0.66-0.77c1.43-0.33,2.861-0.55,4.401-0.55c2.53,0,4.84,0.66,6.82,1.76c0.22,0.22,0.44,0.33,0.44,0.77 C20.39,20.78,20.06,21,19.731,21z M20.94,17.921c-0.22,0-0.44-0.11-0.66-0.22c-1.87-1.21-4.511-1.87-7.37-1.87 c-1.43,0-2.751,0.22-3.74,0.44c-0.22,0.11-0.33,0.11-0.55,0.11c-0.55,0-0.881-0.44-0.881-0.881c0-0.55,0.22-0.77,0.77-0.991 c1.32-0.33,2.641-0.66,4.511-0.66c3.08,0,5.94,0.77,8.361,2.2c0.33,0.22,0.55,0.55,0.55,0.881 C21.82,17.48,21.491,17.921,20.94,17.921z M22.37,14.4c-0.22,0-0.33-0.11-0.66-0.22c-2.2-1.21-5.39-1.98-8.47-1.98 c-1.54,0-3.19,0.22-4.621,0.55c-0.22,0-0.33,0.11-0.66,0.11c-0.66,0.111-1.1-0.44-1.1-1.099s0.33-0.991,0.77-1.1 C9.39,10.22,11.26,10,13.24,10c3.41,0,6.93,0.77,9.681,2.2c0.33,0.22,0.66,0.55,0.66,1.1C23.471,13.96,23.03,14.4,22.37,14.4z"/>
+                    </svg>
+                    <div class="social__spotify-name">spotify</div>
+                </div>
+            </div>
+        </div>
+        <div class="wrapper-right">
+            <div class="subscribe">
+                <p class="about-me__caption">subscribe</p>
+                <p class="subscribe__discription">Duis sollicitudin facilisis dui ac aliquet. Phasellus tempor sollicitudin augue, id hendrerit enim gravida non. Integer consequat vel arcu quis dictum. Vestibulum viverra commodo nunc eu pellentesque.</p>
+                <div class="input-text">
+                    <input class="subscribe__input" type="text" placeholder="Enter your email address">
+                </div> 
+            </div>
+            <div class="sponsor">
+                <div class="about-me__caption">sponsor</div>
+                <div class="logo">
+                    <div class="logo__item" src="" alt="" >LOGO</div>
+                    <div class="logo__item" src="" alt="" >LOGO</div>
+                    <div class="logo__item" src="" alt="" >LOGO</div>
+                </div>
+            </div>
+        </div>
+        
+    </footer>
+</body>
+</html>
