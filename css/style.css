@@ -563,23 +563,17 @@ body {
   .music .video-cover {
     position: relative;
   }
+  .music .video-cover__item--blank {
+    display: none;
+  }
   .music .video-cover__item--upper {
     position: absolute;
-    padding-left: 1.5em;
-    padding-right: 1.5em;
-  }
-  .music .video-cover__item__btn {
-    margin-bottom: 10px;
+    background-color: transparent;
+    grid-column: 1/3;
+    padding-left: 20%;
   }
 }
 @media (max-width: 816px) {
-  .music .video-cover__item--upper {
-    padding-left: 1em;
-    padding-right: 1em;
-  }
-  .music .video-cover__item__btn {
-    padding: 5px;
-  }
   .music .video-cover__item__play {
     width: 10px;
     height: 9px;
@@ -593,14 +587,16 @@ body {
     margin-left: 3%;
   }
 }
-@media (max-width: 652px) and (max-width: 767px) {
-  .music .video-cover__item__btn {
-    font-size: calc(6px + 23.8 * ((100vw - 375px) / 1366));
+@media (max-width: 766px) {
+  .gallery {
+    grid-template-columns: repeat(2, 1fr);
   }
-}
-@media (max-width: 652px) and (min-width: 767px) {
-  .music .video-cover__item__btn {
-    font-size: calc(6px + 14 * (100vw / 1366));
+  .gallery__item--blank {
+    display: none;
+  }
+  .block {
+    grid-column: 1/2;
+    grid-row: 3/4;
   }
 }
 @media (max-width: 600px) {
@@ -626,36 +622,5 @@ body {
   .header__logo-img {
     width: 37.5px;
     height: 37.5px;
-  }
-  .block__caption {
-    margin-left: 7%;
-  }
-  .block__discription {
-    margin-left: 7%;
-  }
-}
-@media (max-width: 560px) and (max-width: 767px) {
-  .block__discription {
-    font-size: calc(8px + 37.4 * ((100vw - 375px) / 1366));
-  }
-}
-@media (max-width: 560px) and (min-width: 767px) {
-  .block__discription {
-    font-size: calc(8px + 22 * (100vw / 1366));
-  }
-}
-@media (max-width: 560px) {
-  .block__link {
-    margin-left: 7%;
-  }
-}
-@media (max-width: 560px) and (max-width: 767px) {
-  .block__link {
-    font-size: calc(8px + 28.9 * ((100vw - 375px) / 1366));
-  }
-}
-@media (max-width: 560px) and (min-width: 767px) {
-  .block__link {
-    font-size: calc(8px + 17 * (100vw / 1366));
   }
 }/*# sourceMappingURL=style.css.map */
